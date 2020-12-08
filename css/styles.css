@@ -194,11 +194,8 @@ address a {
 
 	/*   Element Styles  */
 
-	.main-nav {
-		display: inline-block;
-	}
-
 	.main-nav a {
+		display: inline-block;
 		background-color: #778899;
 		padding-left: 1em;
 		padding-right: 1em;

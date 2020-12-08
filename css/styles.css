@@ -207,20 +207,14 @@ address a {
 		padding-top: 1em;
 	}
 
-	.col-left p,
-	.col-right p {
+	.column p {
 		max-width: 90%;
 		margin-left: 1.5em;
 	}
 
-	.col-left {
+	.column {
 		width: 48%;
-		float: left;
-		padding-bottom: 0;
-	}
-
-	.col-right {
-		width: 48%;
+		height: 410px;
 		float: left;
 		padding-bottom: 0;
 	}
@@ -407,24 +401,12 @@ address a {
 		padding-right: 2em;
 	}
 
-	.left {
+	.column {
 		width: 33.33%;
 		float: left;
 	}
 
-	.middle {
-		width: 33.33%;
-		float: left;
-	}
-
-	.right {
-		width: 33.33%;
-		float: left;
-	}
-
-	.left p,
-	.right p,
-	.middle p {
+	.column p {
 		max-width: 90%;
 		margin: 0 .5em;
 		line-height: 1.4;
